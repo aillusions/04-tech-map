@@ -1,3 +1,6 @@
+
+#### Use cases
+
 ##### Voting. There is a set of authorised entities (e.g. people, device, organization) to take part into collective decisions making.  People go to trusted location and anonymously vote. Then ballot sent to centralised party. 
     - Permissioned (confidential contracts, private transactions) distributed leger (blockchain): vote using private digital voting token which is linked to identification during registering to vote.
         Information is stored into immutable blockchain (e.g. AWS managed blockchain or Hyperledger Fabric)
@@ -87,4 +90,7 @@
     - search-engine database (Elasticsearch Service, Splunk)
     
 ##### Logging and analysis - Maintaining larger applications that are either distributed across several nodes or consist of several smaller applications searching for events in log files can become tedious. Search-engine databases can handle the logging more efficiently.
-    - search-engine database (Elasticsearch Service, Splunk)     
+    - search-engine database (Elasticsearch Service, Splunk)    
+    
+##### Image or speech recognition
+    - Machine learning (tensorflow)     
