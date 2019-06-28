@@ -41,16 +41,16 @@
 -  NoSQL databases (Key-value, Document, Graph, FTSearch)
 
 ##### Session store - A session-oriented application such as a web application starts a session when a user logs in and is active until the user logs out or the session times out.
-- key-value (DynamoDB, Cassandra) 
+- key-value
 
 ##### Shopping cart - During the holiday shopping season, an e-commerce website may receive billions of orders in seconds.
-- key-value () 
+- key-value
   
 ##### Content management -  A document database is a great choice for content management applications such as blogs and video platforms. With a document database, each entity that the application tracks can be stored as a single document.
-- document databases (MongoDB)
+- document databases
 
 ##### Catalogs - Document databases are efficient and effective for storing catalog information. For example, in an e-commerce application, different products usually have different numbers of attributes. Managing thousands of attributes in relational databases is inefficient, and the reading performance is affected. U
-- document databases (Couchbase)
+- document databases
 
 ##### Real-time bidding - Real-time bidding refers to the buying and selling of online ad impressions.
 - in-memory database
@@ -99,7 +99,8 @@
 
 ### Technology index
 
-##### NoSQL 
+##### NoSQL DB
+
 - graph database
   * Amazon Neptune
   * Neo4j
@@ -150,3 +151,15 @@
 - tensorflow
 - aws machine learning
 - google AI
+
+##### Infrastructure
+- Docker
+- Packer
+- Swarn
+- saltstack
+- kubernetes 
+- Chef 
+- Puppet 
+- Ansible
+- Terraform
+- CloudFormation
