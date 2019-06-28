@@ -1,11 +1,11 @@
 
 ### Use cases
 
-##### Voting. There is a set of authorised entities (e.g. people, device, organization) to take part into collective decisions making.  People go to trusted location and anonymously vote. Then ballot sent to centralised party. 
+##### Voting 
 - Permissioned blockchain
 
-##### Direct transactions without central athority - money (cash is anonymous)
--  Permissionless Distributed leger with a token (e.g. ETH or EOS blockchain) - cryptocurrency
+##### Cryptocurrency - direct transactions without central authority - money (cash is anonymous)
+-  Permissionless blockchain
 
 ##### Supply chain
 - blockchain
@@ -123,11 +123,12 @@
   * Elasticsearch
   * Splunk
 
-##### BlockChain Permissioned (confidential contracts, private transactions) distributed leger (blockchain): vote using private digital voting token which is linked to identification during registering to vote.
+##### BlockChain
 - Ethereum - Permissionless (open) Distributed leger 
 - EOS - Permissionless (open) Distributed leger 
 - AWS managed blockchain - Permissioned blockchain
 - Hyperledger Fabric - Permissioned blockchain
+   * chain code (smart contract)  
 - Infura
 - Amazon QLDB
     Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log ‎owned by a central trusted authority.
