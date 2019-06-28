@@ -7,15 +7,30 @@
 
 ##### Supply chain
     - blockchain
+    
+##### Automatic contract
+    - blockchain  
 
-##### Disput resolution 
+##### Dispute resolution 
     - blockchain
 
-##### Sharing of immutable and verifiable information between untrusted parties (between multiple different organizations)
+##### Consortium of banks: sharing of immutable and verifiable information between untrusted parties (between multiple different organizations)
     - blockchain
     
 ##### Bidding    
-    - blockchain 
+    - blockchain    
+       
+##### Proof of ownership    
+    - blockchain           
+     
+##### Insurance 
+    - blockchain     
+    
+##### Patient records - to share between institutions
+    - distributed blockchain    
+       
+##### Royalty payments
+    - distributed blockchain   
 
 ##### Flexible, Scalable, High-performance storage of data: 
     -  NoSQL databases (Key-value, Document, Graph, FTSearch)
@@ -44,7 +59,28 @@
 ##### Recommendation engines - Graph databases are a good choice for recommendation applications. 
     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
     
-##### Fraud detection
+##### Fraud detection - connections between large data sets and identify patterns, a useful trait when it comes to spotting complex, modern fraud techniques.
+    - graph database (Amazon Neptune, Neo4j, Ontotext graphdb)  
+       
+##### Knowledge base
+     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
+     
+##### Search - Airbnb has recently rebuilt its internal data portal using Neo4j to allow employees to better find relevant dashboards and reports. German airline Lufthansa uses Neo4j for in-flight asset management, namely allowing staff to search the video film library and keep up with what has been rolled out where across the fleet
+     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
+     
+##### Identity and access management
+     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
+     
+##### Machine learning - Google has been running “graph-powered machine learning” for many of its AI-powered products, like inbox reminders and image recognition in Google Photos
+     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
+       
+#### Social Media and Social Network Graphs - Easily leverage social connections or infer relationships based on activity when you use a graph database to power your social network application. Community Cluster Analysis, Friend-of-Friend Recommendations, Influencer Analysis, Sharing & Collaboration, Social Recommendations
+     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
+       
+##### Network and IT operations -  “Model whole networks to figure out if one cell tower goes down how that scales across the network, or in the case of a breach how that moves across your architecture.”
+    - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
+    
+##### Supply Chain - business supply chains are now more complex than ever, and they resemble a complex interconnected network. Brands can source produce from all over the globe from multiple suppliers, and the result is exactly the kind of interconnected system that graph databases excel at modeling.
     - graph database (Amazon Neptune, Neo4j, Ontotext graphdb) 
     
 ##### Text search - Search-engine databases can handle full-text search faster than relational databases. For example, an e-commerce website can use search-engine databases to provide instant autocompletes or suggestions for its customers.
