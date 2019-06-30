@@ -237,3 +237,18 @@ Availability + Partition Tolerance
 - CouchDb
 
     
+    
+Replication models:
+- eventual consistency
+- strict consistency
+
+
+CouchDB: CouchDB supports both master-master and master-slave replication.
+MongoDB: MongoDB offers single-master replication with auto-election built-in.
+
+
+technology stack examples:
+- LAMP standing for Linux (operating system), Apache (web server), MySQL (database), PHP (programming language). LAMP is considered the most popular back-end stack and is appreciated for its scalability, security and high customization options. While most developers prefer Linux as the operating system, the same stack can be used with Windows or Mac OS without sacrificing the development quality.
+- Python-Django based on the Python programming language. It also uses the Apache web server and MySQL database, as well as the Django framework, which is also written in Python. Developers love this stack for the possibility of quick development keeping the high level of quality. Many projects opt for Python-Django when creating their MVPs and other time-critical products.
+- MEAN, which is an acronym of MongoDB (database), Express.js (application framework), AngularJS (front-end framework), Node.js (runtime environment). Here the stack structure is different, as it includes both the back-end and front-end development tools, and it is more correct to call it a full stack. MEAN is an implementation of the “JavaScript everywhere” concept using the same programming language both client-side and server-side. The back-end is based on Node.js, the first platform to use JavaScript in the back-end development. The MEAN stack is known for its high performance and flexibility, as well as a smooth learning curve, since it uses the same language across all components.
+- MERN includes MongoDB, Express, React/Redux, and Node.js. Considering the popularity of ReactJS in front-end development and NodeJS in back-end development, this combination is reasonably called the most-used JavaScript stack for building high-end single-page applications. Except for the “one programming language across all tiers” benefit, MERN also offers a short learning curve, high productivity and enhanced agility. When comparing MEAN vs MERN, the choice boils down to React or Angular, and here it’s important to take into account the project’s requirements and goals, as well as the familiarity of JavaScript developer(s) with these front-end technologies.
