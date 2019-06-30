@@ -97,6 +97,10 @@
 ##### Image or speech recognition
 - Machine learning
 
+##### Shortest route
+- graph database 
+
+
 ### Technology index
 
 ##### NoSQL DB
@@ -164,3 +168,28 @@
 - Ansible
 - Terraform
 - CloudFormation
+
+
+
+Q: how would you
+- store and retrieve comments for youtube videos
+- implement chat 
+- implement stream in a social network
+- autonomously driving car
+- site scrapper
+- digital assistant
+- find optimal route
+- read text from scanned image
+- canonical graph problems:  centrality, page-rank (most important/central node of graph), clustering
+- store org hierarchy
+- NLP - natural language processing (text adjacency graph)
+- text translation
+- video caption generation
+- opinion mining: text opinion extraction
+- reviews engine
+- retrieve and store real time analytics of a running process
+- rate limit or billable rate
+- implement ip blocking
+- represent civil law in code and check if behaviour is legal or not
+- government organisations responsibilities check if action falls into responsibility or not
+- implement customer 360
