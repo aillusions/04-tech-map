@@ -185,7 +185,7 @@ Q: how would you
 - NLP - natural language processing (text adjacency graph)
 - text translation
 - video caption generation
-- opinion mining: text opinion extraction
+- opinion/sentiment mining/extraction: text opinion extraction
 - reviews engine
 - retrieve and store real time analytics of a running process
 - rate limit or billable rate
@@ -193,3 +193,21 @@ Q: how would you
 - represent civil law in code and check if behaviour is legal or not
 - government organisations responsibilities check if action falls into responsibility or not
 - implement customer 360
+
+
+
+Key-value store: These databases are designed to store data in key-value pairs. These databases don?t have any schema and each data value contains an indexed key and a value for that key.
+- Cassandra
+- DynamoDb
+- BerkleyDb
+- Riak
+
+Column sore: These databases are used to store data in cells. These cells are grouped in columns of data, and these columns are further grouped into Column families.
+- BigTable
+- HBase
+- Hypertable
+
+Document store: These databases follow the basic idea of key-value stores where "documents" contain complex data and each document is assigned with a unique key, which is used to retrieve the document.
+- CouchDb
+- MongoDb
+    
