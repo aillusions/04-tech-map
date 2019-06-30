@@ -211,6 +211,9 @@ Data Model (functional capabilities?)
     Document store: These databases follow the basic idea of key-value stores where "documents" contain complex data and each document is assigned with a unique key, which is used to retrieve the document.
     - CouchDb
     - MongoDb
+    
+    Graph database
+    - Neoj4
    
         
 CAP (Non functional capabilities?)
@@ -236,7 +239,9 @@ Availability + Partition Tolerance
 - Cassandra
 - CouchDb
 
-    
+Normalization:
+- normalized (DRY)
+- denormalized
     
 Replication models:
 - eventual consistency
