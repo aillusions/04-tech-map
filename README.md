@@ -195,7 +195,7 @@ Q: how would you
 - implement customer 360
 
 
-Data Model:
+Data Model (functional capabilities?)
     
     Key-value store: These databases are designed to store data in key-value pairs. These databases don?t have any schema and each data value contains an indexed key and a value for that key.
     - Cassandra
@@ -211,8 +211,9 @@ Data Model:
     Document store: These databases follow the basic idea of key-value stores where "documents" contain complex data and each document is assigned with a unique key, which is used to retrieve the document.
     - CouchDb
     - MongoDb
+   
         
-CAP: 
+CAP (Non functional capabilities?)
 
 - Consistency means that each client always has the same view of the data.
 - Availability means that all clients can always read and write.
