@@ -195,19 +195,44 @@ Q: how would you
 - implement customer 360
 
 
+Data Model:
+    
+    Key-value store: These databases are designed to store data in key-value pairs. These databases don?t have any schema and each data value contains an indexed key and a value for that key.
+    - Cassandra
+    - DynamoDb
+    - BerkleyDb
+    - Riak
+    
+    Column sore: These databases are used to store data in cells. These cells are grouped in columns of data, and these columns are further grouped into Column families.
+    - BigTable
+    - HBase
+    - Hypertable
+    
+    Document store: These databases follow the basic idea of key-value stores where "documents" contain complex data and each document is assigned with a unique key, which is used to retrieve the document.
+    - CouchDb
+    - MongoDb
+        
+CAP: 
 
-Key-value store: These databases are designed to store data in key-value pairs. These databases don?t have any schema and each data value contains an indexed key and a value for that key.
-- Cassandra
-- DynamoDb
-- BerkleyDb
-- Riak
+- Consistency means that each client always has the same view of the data.
+- Availability means that all clients can always read and write.
+- Partition tolerance means that the system works well across physical network partitions.
 
-Column sore: These databases are used to store data in cells. These cells are grouped in columns of data, and these columns are further grouped into Column families.
+
+Availability + Consistency
+- RDBMS
+        
+Consistency + Partition Tolerance
 - BigTable
-- HBase
 - Hypertable
+- HBase
+- MongoDB
+- Redis
+- Memcached
 
-Document store: These databases follow the basic idea of key-value stores where "documents" contain complex data and each document is assigned with a unique key, which is used to retrieve the document.
+Availability + Partition Tolerance
+- Dynamo Db 
+- Cassandra
 - CouchDb
-- MongoDb
+
     
