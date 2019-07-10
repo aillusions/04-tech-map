@@ -103,6 +103,9 @@
 ##### There is large amount of videos, relative small amount of watched videos, get list of not watched videos
 - 
 
+##### URL shortener backend data storage 
+- KV NoSQL: cassandra, dynamodb, chouchbase
+
 ### Technology index
 
 ##### NoSQL DB
@@ -204,6 +207,7 @@ Data Model (functional capabilities?)
     - DynamoDb
     - BerkleyDb
     - Riak
+    - Couchbase (and Document store)
     
     Column sore: These databases are used to store data in cells. These cells are grouped in columns of data, and these columns are further grouped into Column families.
     - BigTable
@@ -213,12 +217,14 @@ Data Model (functional capabilities?)
     Document store: These databases follow the basic idea of key-value stores where "documents" contain complex data and each document is assigned with a unique key, which is used to retrieve the document.
     - CouchDb
     - MongoDb
+    - Couchbase  (and Key-value store)
     
     Graph database
     - Neoj4
    
         
 CAP (Non functional capabilities?)
+    When talking about the CAP Theorem, distributed data management systems are generally considered to be either CP or AP,  a trade off in either consistency (C) or availability (A)
 
 - Consistency means that each client always has the same view of the data.
 - Availability means that all clients can always read and write.
@@ -235,6 +241,10 @@ Consistency + Partition Tolerance
 - MongoDB
 - Redis
 - Memcached
+- Couchbase (Server can be a more CP or a more AP system depending on the deployment topology)
+
+
+
 
 Availability + Partition Tolerance
 - Dynamo Db 
